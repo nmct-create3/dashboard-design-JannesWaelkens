@@ -2,26 +2,47 @@
 #FONTS
 \*------------------------------------*/
 
+
+
 /*------------------------------------*\
 #Variables
 \*------------------------------------*/
 
 :root {
     /* colors */
-    --color-alpha-light: MEDIUMSLATEBLUE;
-    --color-alpha: SLATEBLUE;
+ 
 
-    --color-neutral-light: LIGHTSLATEGRAY;
-    --color-neutral: SLATEGRAY;
-    --color-neutral-dark: DARKSLATEGRAY;
+    --color-gamma: #FF6565;
+   
+    --color-alpha: #A3A0FB;
 
+    --color-alpha-dark: #43425D;
+    --color-alpha-x-dark: #43435D;
+    --color-alpha-xx-dark: #4D4F5C;
+
+    --color-beta: #3B86FF;
+    --color-neutral-light: #fff;
+    --color-alpha-light: #F2F2F9;
+
+    
+     
+
+
+ 
     /* Shadows */
+    --shadow-neutral: 0 2px 6px rgba(0, 0, 0, .04);
 
     /* border radius */
 
     /* transitions */
     --transition-alpha: .1s;
+
+
+    /* grid */
+    --grid-sidebar-width: 260px;
+    --grid-baseline: 5px;
 }
+
 
 /*------------------------------------*\
 #GENERIC
@@ -34,14 +55,14 @@
 */
 
 html {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.5;
-    font-family: Helvetica, arial, sans-serif;
-    color: var(--color-neutral-dark);
+    font-family: "Source Sans Pro",Helvetica, arial, sans-serif;
+    color: var(--color-alpha-xx-dark);
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: white;
+    background-color: var(--color-alpha-light);
 }
 
 *,
@@ -93,7 +114,7 @@ img {
 h1,
 h2,
 h3 {
-    font-weight: 700;
+    font-weight: 600;
 }
 
 h1 {
@@ -294,6 +315,56 @@ input::placeholder {
     ---
     Website main logo
 */
+.c-logo{
+    padding: calc(var(--grid-baseline)*5) 0 calc(var(--grid-baseline)*5) ;
+    padding-left: 20px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: var(--color-neutral-light);
+    line-height: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+    
+}
+
+/*
+    Component: app
+    ---
+    Website main app
+*/
+.c-app {
+    min-height: 100vh;
+}
+
+.c-app__logo{
+    background:  var(--color-alpha-x-dark);
+    text-decoration: none;
+
+   
+}
+.c-app__topbar{
+    background:  var(--color-neutral-light);
+    box-shadow: var(--shadow-neutral);
+    
+}
+.c-app__sidebar{
+    background:  var(--color-alpha-dark);
+    
+}
+.c-app__main{
+    background:  var(--color-alpha-light);
+}
+
+/*standard width*\
+\*------------------------------------*/
+@media screen and (min-width:65rem){
+    .c-app {
+        display: grid; /*alle items uit deze container worden hieruit gestyled*/
+        grid-template-columns: var(--grid-sidebar-width) auto;
+        grid-template-rows: auto 1fr; /* auto = kijkt naar de content = c-logo die wij 70px hoog maken/*
+    }
+}
+
 
 /*------------------------------------*\
 #UTILITIES
