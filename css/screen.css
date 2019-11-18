@@ -361,7 +361,7 @@ input::placeholder {
     .c-app {
         display: grid; /*alle items uit deze container worden hieruit gestyled*/
         grid-template-columns: var(--grid-sidebar-width) auto;
-        grid-template-rows: auto 1fr; /* auto = kijkt naar de content = c-logo die wij 70px hoog maken/*
+        grid-template-rows: auto 1fr; /* auto = kijkt naar de content = c-logo die wij 70px hoog maken*/
     }
 }
 
