@@ -14,13 +14,13 @@
       },
       "attrs": [],
       "properties": {
-        "order": 2,
+        "order": 3,
         "id": 13,
         "name": "icon_calendar",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 2,
+      "setId": 0,
       "iconIdx": 0
     },
     {
@@ -36,13 +36,13 @@
       },
       "attrs": [],
       "properties": {
-        "order": 3,
+        "order": 4,
         "id": 12,
         "name": "icon_chat-notification",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 2,
+      "setId": 0,
       "iconIdx": 1
     },
     {
@@ -58,13 +58,13 @@
       },
       "attrs": [],
       "properties": {
-        "order": 4,
+        "order": 5,
         "id": 11,
         "name": "icon_chat-room",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 2,
+      "setId": 0,
       "iconIdx": 2
     },
     {
@@ -81,13 +81,13 @@
       },
       "attrs": [],
       "properties": {
-        "order": 5,
+        "order": 6,
         "id": 10,
         "name": "icon_customers",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 2,
+      "setId": 0,
       "iconIdx": 3
     },
     {
@@ -103,13 +103,13 @@
       },
       "attrs": [],
       "properties": {
-        "order": 6,
+        "order": 7,
         "id": 9,
         "name": "icon_dashboard",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 2,
+      "setId": 0,
       "iconIdx": 4
     },
     {
@@ -126,13 +126,13 @@
       },
       "attrs": [],
       "properties": {
-        "order": 7,
+        "order": 8,
         "id": 8,
         "name": "icon_down-arrow-small",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 2,
+      "setId": 0,
       "iconIdx": 5
     },
     {
@@ -148,13 +148,13 @@
       },
       "attrs": [],
       "properties": {
-        "order": 8,
+        "order": 9,
         "id": 7,
         "name": "icon_help-center",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 2,
+      "setId": 0,
       "iconIdx": 6
     },
     {
@@ -170,13 +170,13 @@
       },
       "attrs": [],
       "properties": {
-        "order": 9,
+        "order": 10,
         "id": 6,
         "name": "icon_home",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 2,
+      "setId": 0,
       "iconIdx": 7
     },
     {
@@ -193,13 +193,13 @@
       },
       "attrs": [],
       "properties": {
-        "order": 10,
+        "order": 11,
         "id": 5,
         "name": "icon_inbox",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 2,
+      "setId": 0,
       "iconIdx": 8
     },
     {
@@ -216,13 +216,13 @@
       },
       "attrs": [],
       "properties": {
-        "order": 11,
+        "order": 12,
         "id": 4,
         "name": "icon_Invoices",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 2,
+      "setId": 0,
       "iconIdx": 9
     },
     {
@@ -271,13 +271,13 @@
         }
       ],
       "properties": {
-        "order": 12,
+        "order": 13,
         "id": 3,
         "name": "icon_notification",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 2,
+      "setId": 0,
       "iconIdx": 10
     },
     {
@@ -293,13 +293,13 @@
       },
       "attrs": [],
       "properties": {
-        "order": 13,
+        "order": 14,
         "id": 2,
         "name": "icon_products",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 2,
+      "setId": 0,
       "iconIdx": 11
     },
     {
@@ -315,13 +315,13 @@
       },
       "attrs": [],
       "properties": {
-        "order": 14,
+        "order": 15,
         "id": 1,
         "name": "icon_search",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 2,
+      "setId": 0,
       "iconIdx": 12
     },
     {
@@ -337,13 +337,13 @@
       },
       "attrs": [],
       "properties": {
-        "order": 15,
+        "order": 16,
         "id": 0,
         "name": "icon_setting",
         "prevSize": 32
       },
       "setIdx": 0,
-      "setId": 2,
+      "setId": 0,
       "iconIdx": 13
     }
   ],
